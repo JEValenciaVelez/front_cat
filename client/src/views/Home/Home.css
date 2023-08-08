@@ -1,0 +1,68 @@
+/* Estilos para el componente Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para el encabezado (header) */
+  .home header {
+    background-color: #007bff;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenido principal (main) */
+  .home main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el pie de página (footer) */
+  .home footer {
+    background-color: #007bff;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos para el componente NavBar dentro del encabezado */
+  .home header .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para el componente CardContainer dentro del contenido principal */
+  .home main .Card-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #f2f2f2;
+    white-space: nowrap;
+  }
+  
+  /* Estilos para el componente Footer dentro del pie de página */
+  .home footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para los enlaces en el componente Footer */
+  .home footer .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Estilos para los enlaces cuando se pasa el cursor por encima */
+  .home footer .footer-content a:hover {
+    text-decoration: underline;
+  }
+  

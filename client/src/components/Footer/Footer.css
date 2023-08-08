@@ -1,0 +1,45 @@
+/* Estilos para el componente Footer */
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Estilos para el contenedor del logo */
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el logo */
+  .footer .container img {
+    width: 300px;
+    height: auto;
+  }
+  
+  /* Estilos para el texto */
+  .footer .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Estilos para los span dentro del texto */
+  .footer .text span {
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+  /* Estilos para el primer span (derechos reservados) */
+  .footer .text span:first-child {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el segundo span (nombre del autor) */
+  .footer .text span:last-child {
+    font-style: italic;
+  }
+  

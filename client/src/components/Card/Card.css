@@ -1,0 +1,56 @@
+/* Estilos para el contenedor de cartas */
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Estilos para cada carta */
+.card {
+  flex: 0 0 calc(33.33% - 20px); /* Ajustamos el ancho para crear una cuadrícula de 3 columnas */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  max-width: 300px;
+  text-align: center;
+}
+
+/* Estilos para el título del libro */
+.card h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la imagen del libro */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los géneros del libro */
+.card h2.genres {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Estilos para la fecha del libro */
+.card h2.date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
